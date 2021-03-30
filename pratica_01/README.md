@@ -8,9 +8,9 @@ cobrem minimamente os casos possíveis de entrada e saída do método
 As possibilidades de entrada e saída encontradas para os testes, de forma
 mínima e geral, foram:
 
-* Indice    negativo
-* Indice    positivo
-* Indice    zero
+* Índice    negativo
+* Índice    positivo
+* Índice    zero
 * Radicando negativo
 * Radicando positivo
 * Radicando zero
