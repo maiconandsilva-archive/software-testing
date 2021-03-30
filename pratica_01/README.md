@@ -19,6 +19,8 @@ mínima e geral, foram:
 
 Testes realizados apenas com números inteiros por brevidade.
 
+**Link para uma breve explicação no Youtube https://youtu.be/K6y0frzXl8k**
+
 ## Execução
 
 Este projeto requer Java 8.
