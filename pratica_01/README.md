@@ -23,7 +23,13 @@ Testes realizados apenas com números inteiros por brevidade.
 
 ## Execução
 
-Este projeto requer Java 8.
+Este projeto requer Java 8 e gradle 6.8+.
+
+### Gradle wrapper na versão do projeto
+
+```shell
+gradle wrapper --gradle-version 6.8.3
+```
 
 ### Execução da aplicação
 
