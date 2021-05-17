@@ -27,7 +27,7 @@ public class CalculadoraTest {
 	public void testRaizNesima(
 			double radicando, double indice, double resultado) {
 		assertEquals(resultado,
-				calculadora.raizNesima(radicando, indice), 0.000001,
+				calculadora.raizNesima(radicando, indice), 0.001,
 				String.format("Raiz %.5f de %.5f", indice, radicando));
 	}
 
