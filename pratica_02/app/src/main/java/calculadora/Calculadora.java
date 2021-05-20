@@ -17,7 +17,7 @@ public class Calculadora {
 
     radicando *= sinalRadicando;
 
-    if (sinalRadicando < 0 && indice % 2 == 0) {
+    if (sinalRadicando < 0 && indice % 2 == 0 || indice == 0 ) {
       // Caso Invalido
       return Double.NaN;
     }
