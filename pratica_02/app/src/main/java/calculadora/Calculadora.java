@@ -11,16 +11,17 @@ public class Calculadora {
     return raizNesima(radicando, indice, 8);
   }
 
-  public double raizNesima(
-          double radicando, double indice, int roundPlaces) {
-    double sinalRadicando = Math.signum(radicando);
+  public double raizNesima(double radicando, double indice, int roundPlaces) {
+    if (indice == 1) return radicando;
 
-    radicando *= sinalRadicando;
-
-    if (sinalRadicando < 0 && indice % 2 == 0 || indice == 0 ) {
+    if (radicando < 0 && indice % 2 == 0 || indice == 0) {
       // Caso Invalido
       return Double.NaN;
     }
+
+    double sinalRadicando = Math.signum(radicando);
+
+    radicando *= sinalRadicando;
 
     double resultado = Math.pow(radicando, 1.0/indice) * sinalRadicando;
 
@@ -28,7 +29,9 @@ public class Calculadora {
   }
 
   private static double round(double value, int places) {
-    if (places < 0) throw new IllegalArgumentException();
+    if (places < 0)
+      throw new IllegalArgumentException(
+              "Numero de casas decimais deve ser positivo!");
 
     BigDecimal bd = new BigDecimal(Double.toString(value));
     bd = bd.setScale(places, RoundingMode.HALF_EVEN);
