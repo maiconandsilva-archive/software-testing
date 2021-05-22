@@ -17,9 +17,7 @@ mínima e geral, foram:
 * Resultado inválido
 * Resultado válido
 
-Testes realizados apenas com números inteiros por brevidade.
-
-**Link para uma breve explicação no Youtube https://youtu.be/K6y0frzXl8k**
+**Link para uma breve explicação no Youtube https://youtu.be/hiAZC4LaZkU**
 
 ## Execução
 
