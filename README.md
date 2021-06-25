@@ -16,3 +16,10 @@ _Cada subpasta é uma tarefa realizada._
 > Um ciclo TDD considerando casos de teste em que os dados que são obtidos
 > a partir dos limites das partições. <br>
 > _Continuação da pratica_01_
+
+### [pratica_03](/pratica_03)
+
+> **Teste de aplicação Web com Selenium WebDriver.** <br>
+> Implementação da _pratica_02_ utilizando Selenium WebDriver. <br>
+> Implementação de interface web para o método de cálculo _raíz n-ésima_.
+
