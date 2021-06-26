@@ -17,8 +17,6 @@ mínima e geral, foram:
 * Resultado inválido
 * Resultado válido
 
-**Link para uma breve explicação no Youtube https://youtu.be/p7NoXFlNBrY**
-
 ## Configuração
 
 Este projeto requer Java 8 e gradle 6.8.
@@ -66,3 +64,13 @@ Para mais detalhes, analise o arquivo `build.gradle`.
 ```
 
 **Se estiver usando o cmd do windows, use `gradlew.bat` em vez de `./gradlew`**.
+
+---
+
+<p align="center">
+<a href="https://youtu.be/p7NoXFlNBrY"><b>Link para uma breve explicação no Youtube</b></a>
+</p>
+
+<p align="center">
+<img src="https://s6.gifyu.com/images/_pratica_03.gif" alt="Demonstração prática 03">
+</p>

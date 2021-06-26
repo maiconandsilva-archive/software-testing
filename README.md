@@ -23,3 +23,6 @@ _Cada subpasta é uma tarefa realizada._
 > Implementação da _pratica_02_ utilizando Selenium WebDriver. <br>
 > Implementação de interface web para o método de cálculo _raíz n-ésima_.
 
+<p align="center">
+    <img src="https://s6.gifyu.com/images/_pratica_03.gif" alt="pratica 03">
+</p>
