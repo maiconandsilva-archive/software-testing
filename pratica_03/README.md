@@ -17,7 +17,7 @@ mínima e geral, foram:
 * Resultado inválido
 * Resultado válido
 
-**Link para uma breve explicação no Youtube https://youtu.be/hiAZC4LaZkU**
+**Link para uma breve explicação no Youtube https://youtu.be/p7NoXFlNBrY**
 
 ## Configuração
 
