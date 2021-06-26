@@ -40,7 +40,8 @@ APP_CONTEXT        # subrota da aplicação web
 TEST_WAIT_SECONDS  # Tempo de espera obrigado entre os testes
 ```
 
-Usar `export VARIAVEL=valor` no linux e `set VARIAVEL="valor"` para atribuir as variáveis de ambiente.
+Usar `export VARIAVEL=valor` em sistemas baseados em linux e `set VARIAVEL="valor"` no Windows para atribuir
+as variáveis de ambiente.
 
 Para mais detalhes, analise o arquivo `build.gradle`.
 
