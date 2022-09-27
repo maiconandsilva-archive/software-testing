@@ -18,7 +18,7 @@ The possible input and output found, minimally and generally, were:
 * Result:  Invalid 
 * Result:  Valid
 
-## Sub folders
+## Subfolders
 _Each folder is an assignment completed._
 
 ### [pratica_01](/pratica_01)
