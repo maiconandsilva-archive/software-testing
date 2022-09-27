@@ -46,7 +46,7 @@ _Each folder is an assignment completed._
 
 **Video Explanation: https://youtu.be/p7NoXFlNBrY**
 
-### Variaveis de ambiente (pratica_03 only)
+### Environment Variables (pratica_03 only)
 
 _Optional_
 ```
