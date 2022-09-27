@@ -1,28 +1,95 @@
-# Testes de Software
-Aprendizagem de conceitos e prática com foco em Java e Python.
+# Software Testing
+
+Assignment to practice Software Testing in Java.
+
+This assignment has the goal of minimally demonstrating the
+process of TDD (Test Driven Development) using _**Junit 5**_.
+The tests cover minimally the possible input and output for the
+([nth root](https://en.wikipedia.org/wiki/Nth_root)) method.
+
+The possible input and output found, minimally and generally, were:
+
+* Index:   negative
+* Index:   positive
+* Index:   zero
+* Root:    negative
+* Root:    positive
+* Root:    zero
+* Result:  Invalid 
+* Result:  Valid
 
 ## Subpastas
-_Cada subpasta é uma tarefa realizada._
+_Each folder is an assignment completed._
 
-### [pratica_01](/pratica_01)
+### [Practice 01](/pratica_01)
 
-> **Aplicação de conceitos de TDD através do Junit 8.** <br>
-> Objetivo: Testagem de um método de cálculo de uma classe Calculadora. <br>
-> _Para esta tarefa foi escolhido o cálculo [raíz n-ésima](https://en.wikipedia.org/wiki/Nth_root)._
+> **Applying TDD concepts with Junit 8.** <br>
+> Goal: testing a calculator's mathematical operation. <br>
+> _Chosen operation is [nth root](https://en.wikipedia.org/wiki/Nth_root)._
 
-### [pratica_02](/pratica_02)
+**Video Explanation: https://youtu.be/K6y0frzXl8k**
 
-> **Análise de valores limites e partição de equivalência.** <br>
-> Um ciclo TDD considerando casos de teste em que os dados que são obtidos
-> a partir dos limites das partições. <br>
-> _Continuação da pratica_01_
+### [Practice 02](/pratica_02)
 
-### [pratica_03](/pratica_03)
+> **Boundary value analysis and equivalence partitioning.** <br>
+> A TDD cycle considering test cases in which data used are obtained 
+> from partition limits. <br>
+> _Practice 01 continuation_
 
-> **Teste de aplicação Web com Selenium WebDriver.** <br>
-> Implementação da _pratica_02_ utilizando Selenium WebDriver. <br>
-> Implementação de interface web para o método de cálculo _raíz n-ésima_.
+**Video Explanation: https://youtu.be/hiAZC4LaZkU**
 
-<p align="center">
-    <img src="https://s6.gifyu.com/images/_pratica_03.gif" alt="pratica 03">
-</p>
+### [Practice 03](/pratica_03)
+
+> **Web Application Feature Implementation Test with Selenium WebDriver.** <br>
+> _Pratica 02_ implementation using Selenium WebDriver. <br>
+> Web Interface implementation of the _nth rooth_ mathematical operation.
+
+**Video Explanation: https://youtu.be/p7NoXFlNBrY**
+
+### Variaveis de ambiente (pratica_03 only)
+
+_Optional_
+```
+TEST_DRIVER        # Driver path to be used by Selenium (by default, chromedriver in drivers/)
+TEST_BROWSER       # Browser to be used by Selenium
+APP_HOST           # Web application host
+APP_PORT           # porta da aplicação web
+APP_CONTEXT        # Web application root url path context
+TEST_WAIT_SECONDS  # Waiting time between testes
+```
+
+Use `export VARIAVEL=valor` in Linux based OSs and `set VARIAVEL="valor"` in Windows
+to set the environment variables.
+
+For more details, read `build.gradle`.
+
+## Running
+
+This project requires Java 8 and Gradle 6.8+.
+
+### Project Gradle Wrapper Version
+
+```shell
+gradle wrapper --gradle-version 6.8.3
+```
+
+### Running Command Line Application
+
+```shell
+./gradlew run
+```
+
+### Running Web Application (pratica_03 only)
+
+```shell
+./gradlew appRun
+```
+
+
+### Running Tests
+
+```shell
+./gradlew test
+```
+
+**If using Windows CMD, run `gradlew.bat` instead of `./gradlew`**.
