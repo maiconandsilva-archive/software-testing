@@ -18,10 +18,10 @@ The possible input and output found, minimally and generally, were:
 * Result:  Invalid 
 * Result:  Valid
 
-## Subpastas
+## Sub folders
 _Each folder is an assignment completed._
 
-### [Practice 01](/pratica_01)
+### [pratica_01](/pratica_01)
 
 > **Applying TDD concepts with Junit 8.** <br>
 > Goal: testing a calculator's mathematical operation. <br>
@@ -29,7 +29,7 @@ _Each folder is an assignment completed._
 
 **Video Explanation: https://youtu.be/K6y0frzXl8k**
 
-### [Practice 02](/pratica_02)
+### [pratica_02](/pratica_02)
 
 > **Boundary value analysis and equivalence partitioning.** <br>
 > A TDD cycle considering test cases in which data used are obtained 
@@ -38,7 +38,7 @@ _Each folder is an assignment completed._
 
 **Video Explanation: https://youtu.be/hiAZC4LaZkU**
 
-### [Practice 03](/pratica_03)
+### [pratica_03](/pratica_03)
 
 > **Web Application Feature Implementation Test with Selenium WebDriver.** <br>
 > _Pratica 02_ implementation using Selenium WebDriver. <br>
